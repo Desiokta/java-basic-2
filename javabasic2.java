@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Basicjava2 {
+public class javabasic2 {
     public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
+        Scanner menu = new Scanner(System.in);
         int nilai;
         
         System.out.println("input nilai");
-        nilai = scan.nextInt();
+        nilai = menu.nextInt();
 
         if (nilai >= 0 && nilai <= 20) {
             System.out.println(" Nilai Anda: E");
